@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "applications": "Anwendungen",
+    "contact": "Kontakt",
+    "cta": "Mit einem Ingenieur sprechen"
+  },
+  "hero": {
+    "title": "Baggerpumpen & hydraulische Bagger-Systeme",
+    "subtitle": "Entwickelt in Belgien für hohe Verfügbarkeit und Verschleißfestigkeit.",
+    "ctaPrimary": "Mit einem Ingenieur sprechen",
+    "ctaSecondary": "Produkte ansehen"
+  },
+  "sections": {
+    "productsTitle": "Produkte",
+    "productsIntro": "Schwerlast-Baggerpumpen und Schneidköpfe für abrasive Medien."
+  },
+  "products": {
+    "listingTitle": "Produkte",
+    "listingIntro": "Baggerpumpen und Schneidköpfe mit Datenblatt-PDF.",
+    "keySpecs": "Wichtige Spezifikationen",
+    "faq": "FAQ",
+    "ctaQuote": "Angebot anfordern",
+    "ctaConditions": "Betriebsdaten senden",
+    "pdf": "Broschüre herunterladen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Senden Sie Betriebsdaten (Feststoffe, PSD, Konzentration, Förderhöhe, Distanz, Tiefe, Hydraulikleistung).",
+    "company": "HDS Belgium",
+    "worldwide": "Belgien — Weltweite Projekte",
+    "emailLabel": "E-Mail",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "hint": "Tipp: Feststoffart, PSD, Konzentration, Förderhöhe, Rohrleitung, Tiefe, Hydraulikstrom/-druck."
+    }
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "copyright": "© {year} HDS Belgium. Alle Rechte vorbehalten."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Products",
+    "applications": "Applications",
+    "contact": "Contact",
+    "cta": "Talk to an Engineer"
+  },
+  "hero": {
+    "title": "Advanced Dredging Pumps & Hydraulic Dredging Systems",
+    "subtitle": "Engineered in Belgium for extreme wear resistance, uptime and efficiency.",
+    "ctaPrimary": "Talk to an Engineer",
+    "ctaSecondary": "View products"
+  },
+  "sections": {
+    "productsTitle": "Products",
+    "productsIntro": "Heavy-duty dredging pumps, cutter heads and hydraulic power packs designed for abrasive duty."
+  },
+  "products": {
+    "listingTitle": "Products",
+    "listingIntro": "Browse dredging pumps and excavator cutter heads. Each page includes a downloadable datasheet PDF.",
+    "keySpecs": "Key specifications",
+    "faq": "FAQ",
+    "ctaQuote": "Request a quote",
+    "ctaConditions": "Send operating conditions",
+    "pdf": "Download brochure"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Send operating conditions (solids, PSD, concentration, head, distance, depth, available hydraulic power).",
+    "company": "HDS Belgium",
+    "worldwide": "Belgium — Worldwide Projects",
+    "emailLabel": "Email",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "hint": "Tip: include solids type, PSD, concentration, required head, pipe ID/length, depth and available hydraulic power/flow."
+    }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "copyright": "© {year} HDS Belgium. All rights reserved."
+  }
+}

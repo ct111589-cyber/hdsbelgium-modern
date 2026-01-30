@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "products": "Produits",
+    "applications": "Applications",
+    "contact": "Contact",
+    "cta": "Parler à un ingénieur"
+  },
+  "hero": {
+    "title": "Pompes de dragage et systèmes hydrauliques",
+    "subtitle": "Conçu en Belgique pour une résistance à l’usure et une disponibilité élevées.",
+    "ctaPrimary": "Parler à un ingénieur",
+    "ctaSecondary": "Voir les produits"
+  },
+  "sections": {
+    "productsTitle": "Produits",
+    "productsIntro": "Pompes de dragage, têtes de coupe et groupes hydrauliques pour milieux abrasifs."
+  },
+  "products": {
+    "listingTitle": "Produits",
+    "listingIntro": "Pompes de dragage et têtes de coupe avec fiches techniques PDF.",
+    "keySpecs": "Spécifications clés",
+    "faq": "FAQ",
+    "ctaQuote": "Demander une offre",
+    "ctaConditions": "Envoyer les conditions d’exploitation",
+    "pdf": "Télécharger la brochure"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Envoyez les conditions d’exploitation (solides, PSD, concentration, hauteur, distance, profondeur, puissance hydraulique).",
+    "company": "HDS Belgium",
+    "worldwide": "Belgique — Projets internationaux",
+    "emailLabel": "Email",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer",
+      "hint": "Conseil : type de solides, PSD, concentration, hauteur, tuyauterie, profondeur, débit/pression hydrauliques."
+    }
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "copyright": "© {year} HDS Belgium. Tous droits réservés."
+  }
+}

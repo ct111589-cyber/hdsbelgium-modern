@@ -1,0 +1,1 @@
+export default function Applications(){return(<main className='mx-auto max-w-6xl px-6 py-16'><h1 className='text-3xl font-semibold'>Applications</h1><p className='mt-3 max-w-3xl text-zinc-600'>Port maintenance, reclamation, mining & tailings, offshore and industrial dredging.</p></main>);}
