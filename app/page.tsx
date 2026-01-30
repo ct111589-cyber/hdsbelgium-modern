@@ -1,6 +1,7 @@
-import {redirect} from 'next/navigation';
+import { redirect } from "next/navigation";
 
-// This redirects "/" to "/en" (or your default locale)
 export default function RootPage() {
-  redirect('/en'); 
+  // Redirect to your default language immediately
+  redirect("/en");
+}
 }
