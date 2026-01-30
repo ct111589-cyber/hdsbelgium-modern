@@ -1,11 +1,23 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server"; // Added setRequestLocale
 import Link from "next/link";
 import { products } from "@/data/products";
 import SeoJsonLd from "@/components/SeoJsonLd";
 
-export default async function Home({ params }: { params: { locale: "en" | "fr" | "de" } }) {
-  const tHero = await getTranslations({ locale: params.locale, namespace: "hero" });
-  const tSections = await getTranslations({ locale: params.locale, namespace: "sections" });
+// 1. Update the type: params is now a Promise in Next.js 15
+export default async function Home({ 
+  params 
+}: { 
+  params: Promise<{ locale: string }> 
+}) {
+  // 2. Await the params to get the locale string
+  const { locale } = await params;
+
+  // 3. Enable static rendering (Required for Next.js 15 + next-intl)
+  setRequestLocale(locale);
+
+  // 4. Pass the extracted locale to getTranslations
+  const tHero = await getTranslations({ locale, namespace: "hero" });
+  const tSections = await getTranslations({ locale, namespace: "sections" });
 
   return (
     <main>
@@ -18,6 +30,8 @@ export default async function Home({ params }: { params: { locale: "en" | "fr" |
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/90">{tHero("subtitle")}</p>
           <div className="mt-10 flex flex-wrap gap-3">
+            {/* Note: In your routing setup, you might want to use the Link from next-intl/navigation 
+                to avoid hardcoding the locale in the URL if needed */}
             <Link className="rounded-xl bg-accent px-5 py-3 font-semibold text-white" href="/contact">
               {tHero("ctaPrimary")}
             </Link>
